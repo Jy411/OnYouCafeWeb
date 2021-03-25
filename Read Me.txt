@@ -1,0 +1,28 @@
+	######################### Urgent ######################################
+	
+		Need to update:
+		Form [submit procedure]
+		About Section
+		Contact [some icon need links and changes], Operating Hours, Pick-up
+		Map [combine with contact section either top or bottom of contact]
+		process and ingredients section
+		Button on form and order now need to change color 
+			[Sorry Leon will update the code later]
+	
+	######################### Urgent ######################################
+
+
+
+	/*************************************************************************/
+		Additional features added:
+		JS on business opening and closing can be seen on jumbo
+		JS scroll effect
+		JS order form disable text area when customer choose self-pickup
+
+		Future features to be added:
+		Dark / light mode
+		Dual Language
+
+	/**************************************************************************/
+
+		Additional note: Ignore the form and deli.txt :D

@@ -1,0 +1,25 @@
+
+header {
+    padding: 100px 0;
+  }
+  
+  section {
+    padding: 100px 0;
+  }
+  
+  body {
+    font-family: 'Titillium Web';
+  }
+  .jumbotron {
+    background-image: url('img/background_image.jpg');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 500px;
+  }
+  .card {
+    background-color: rgba(0, 0, 0, 0.4);
+  }
+
+  .icon-white {color: rgb(0, 0, 0);}
+  .icon-green {color:green}
