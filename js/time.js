@@ -1,5 +1,5 @@
 //Establish Open/Closed Variable
-var currentStatus = "closed";
+var currentStatus = "Pre-Order Closed";
 //Establish Day of Week
 var date = new Date();
 
@@ -12,7 +12,7 @@ var weekdate = (getWeekDay(date))
 var year = date.getFullYear()
 var seconds = date.getSeconds();
 var minutes = date.getMinutes();
-var hours = date.getHours() - 7;  // set your offset from Greenwich Mean Time here, Arizona is 7 hours
+var hours = date.getHours() + 8;  // set your offset from Greenwich Mean Time here, Arizona is 7 hours
 
 //variables for business
 var days = {
@@ -21,28 +21,28 @@ var days = {
         "closeTime": 0
     },
     "Monday": {
-        "openTime": 7,
+        "openTime": 9,
         "closeTime": 17
     },
     "Tuesday": {
-        "openTime": 7,
+        "openTime": 9,
         "closeTime": 17
     },
     "Wednesday": {
-        "openTime": 7,
+        "openTime": 9,
         "closeTime": 17
     },
     "Thursday": {
-        "openTime": 7,
-        "closeTime": 21
+        "openTime": 9,
+        "closeTime": 17
     },
     "Friday": {
-        "openTime": 7,
-        "closeTime": 21
+        "openTime": 9,
+        "closeTime": 17
     },
     "Saturday": {
-        "openTime": 7,
-        "closeTime": 21
+        "openTime": 0,
+        "closeTime": 0
     }
 }
 var theDay = days[weekdate];
@@ -50,7 +50,7 @@ var theTime = date.getHours();
 
 //function statement
 if (hours >= theDay.openTime && hours < theDay.closeTime) {
-    currentStatus = "open"
+    currentStatus = "Open for Pre-Order!"
 }
 console.log("The business is currently " + currentStatus);
-document.getElementById("demo").innerHTML = "On You Cafe is currently " + currentStatus ;
+document.getElementById("demo").innerHTML = currentStatus ;

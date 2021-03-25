@@ -14,6 +14,7 @@
 
 
 	/*************************************************************************/
+
 		Additional features added:
 		JS on business opening and closing can be seen on jumbo
 		JS scroll effect

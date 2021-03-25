@@ -1,284 +1,370 @@
 <!doctype html>
 <html lang="en">
-  <head>
+<head>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    
+
     <!-- Font Awesome -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+          integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+          crossorigin="anonymous"/>
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+          integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+          integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+          crossorigin="anonymous"/>
     <link href="css/style.css" rel="stylesheet">
+    <link href='https://fonts.googleapis.com/css?family=Titillium Web' rel='stylesheet'>
+    <link rel="icon" href="img/logo_image.png">
+
     <title>On You Cafe</title>
-  </head>
+</head>
 
-  <body>
-    <!--navigation start-->
-    <navigation>
-      <nav class="navbar navbar-expand-sm navbar-light text-center fixed-top">
-        <div class="container">
-          <a class="navbar-brand js-scroll-trigger" href="#home">
+<body>
+<!--navigation start-->
+<nav class="navbar navbar-expand-sm navbar-light text-center fixed-top">
+    <div class="container">
+        <a class="navbar-brand js-scroll-trigger" href="#home">
             <img src="img/logo_image.png" alt="logo" width="60x">
-            
-          </a>
-          <a class="navbar-brand js-scroll-trigger" href="#home">
+        </a>
+        <a class="navbar-brand js-scroll-trigger" href="#home">
             <div class="flex-row text-left">
-              On You Cafe<br>
-              <small class="text-muted">Healthy with Culture</small>
-            </div> 
-          </a>
-  
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
-              <span class="navbar-toggler-icon"></span>
-          </button>
-  
-          <div class="collapse navbar-collapse justify-content-end" id="collapsibleNavbar">
+                ON YOU CAFE<br>
+                <small class="text-muted">Healthy with Culture</small>
+            </div>
+        </a>
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse justify-content-end" id="collapsibleNavbar">
             <ul class="navbar-nav">
-              <li class="nav-item my-auto"><a class="nav-link text-success js-scroll-trigger" href="#feed">Posts</a></li>
-              <li class="nav-item my-auto"><a class="nav-link text-success js-scroll-trigger" href="#process">Ingredient</a></li>
-              <li class="nav-item my-auto"><a class="nav-link text-success js-scroll-trigger" href="#about">About</a></li>
-              <li class="nav-item my-auto"><a class="nav-link text-success js-scroll-trigger" href="#contact">Contact</a></li>
-              <li class="nav-item"><a href="#"><i class="fab fa-whatsapp fa-2x p-3 icon-green"></i></a></li>
+                <li class="nav-item my-auto"><a class="nav-link  js-scroll-trigger" href="#home">Home</a></li>
+                <li class="nav-item my-auto"><a class="nav-link  js-scroll-trigger" href="#feed">Posts</a></li>
+                <li class="nav-item my-auto"><a class="nav-link  js-scroll-trigger" href="#process">Ingredients</a></li>
+                <li class="nav-item my-auto"><a class="nav-link  js-scroll-trigger" href="#about">About</a></li>
+                <li class="nav-item my-auto"><a class="nav-link  js-scroll-trigger" href="#contact">Contact</a></li>
+                <button type="button" class="btn btn-primary button" data-toggle="modal" data-target="#order">Pre-Order
+                    Now
+                </button>
             </ul>
-          </div>
         </div>
-      </nav>
-    </navigation>
-    <!--navigation end-->
+    </div>
+</nav>
+<!--navigation end-->
 
-    <!--header start-->
-    <header id="home">
-        <div class="jumbotron bg-dark mb-0">
-          <div class="container">
+<!--header start-->
+<header id="home">
+    <div class="jumbotron bg-dark mb-0" style="background-image: url(img/background_image.jpg);">
+        <div class="container">
             <div class="row">
-              <div class="col-sm-6">
-                <div class="card text-white">
-                  <div class="card-header">
-                    <h1>Nasi Lemak Healthy</h1>
-                  </div>
-                  <div class="card-body">
-                    <h5 class="card-title">Halal Certified</h5>
-                    <!--business status--><h3 id="demo"></h3><!--business status-->
-                    <br>
-                    <!--Order form starts here-->
-                    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#order">Order Nasi Lemak</button> 
-                    <!-- Modal -->
-                      <div class="modal fade" id="order" tabindex="-1" role="dialog" aria-labelledby="orderLabel" aria-hidden="true" style="color:black">
-                        <div class="modal-dialog" role="document">
-                          <div class="modal-content">
-                            <div class="modal-header">
-                            <h5 class="modal-title" id="orderLabel">On You Cafe Order Form</h5>
-                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                            <span aria-hidden="true">&times;</span>
+                <div class="col-sm-6">
+                    <div class="card text-white">
+                        <div class="card-header">
+                            <h1>Nasi Lemak Healthy</h1>
+                            <hr>
+                            <p class="font-italic">White fragrant rice with signature sambal,<br>
+                                air-fried chicken breast,<br>
+                                a little bit of garnish on the side.<br>
+                            </p>
+                            <!--business status adjust space--><h3 id="demo" class="mt-5 pb-0"></h3>
+                            <!--business status-->
+                            <br>
+                            <!--Order form starts here-->
+                            <button type="button" class="btn btn-primary display-4 button" data-toggle="modal"
+                                    data-target="#order">Pre-Order Now
                             </button>
-                            </div>
-                            
-                            <div class="modal-body">
-                              <form action="mailto:redpuasa@gmail.com" method="post" enctype="text/plain">
-                        
-                                <!--Name-->
-                              <div class="container">
-                                <div class="form-group row">
-                                  <div class="col-sm-8">
-                                    <label for="name" id="inputName">Name</label>
-                                    <input type="name" class="form-control" id="inputName" placeholder="Name">
-                                  </div>
-                                </div>
-
-                                <!--Phone-->
-                                <div class="form-group row">
-                                  <div class="col-sm-8">
-                                    <label for="phone" id="inputName">Phone</label>
-                                    <input type="phone" class="form-control" id="inputPhone" placeholder="Phone">
-                                  </div>
-                                </div>
-
-                                <!--Pax/Quantity-->
-                                <div class="form-group row">
-                                  <div class="col-sm-8">
-                                    <label for="pax" id="inputName">Quantity</label>
-                                    <input type="pax" class="form-control " id="inputQuantity" placeholder="Quantity">
-                                  </div>
-                                </div>
-
-                                  <!--Remark-->
-                                <div class="form-group row">
-                                  <div class="col-sm-8">
-                                      <label for="remark" id="inputName">Remark</label>
-                                      <input type="remark" class="form-control" id="inputRemark" placeholder="Remark">
-                                  </div>
-                                </div>
-
-                                <!--Payment Method-->
-                                <div class="form-group row">
-                                  <label for="payment" class="col col-form-label">Payment Method</label>
-                                  <div class="col-sm-10 my-auto">
-                                    <label class="radio-inline"><input type="radio" name="payment" id="cash"> Cash</label>
-                                    <label class="radio-inline pl-3"><input type="radio" name="payment" id="bankTransfer"> Bank Transfer</label>
-                                  </div>
-                                </div>
-
-                                <!--Pick-up Method-->
-                                <div class="form-group row">
-                                  <label for="pick" class="col col-form-label">Delivery Method</label>
-                                  <div class="col-sm-10 my-auto">
-                                    <label class="radio-inline"><input type="radio" name="pick" id="self" onclick="disable()"> Self-Pick-up</label>
-                                    <label class="radio-inline pl-3"><input type="radio" name="pick" id="delivery" onclick="enable()"> Delivery</label>
-                                  </div>
-                                </div>
-                  
-                                <!--Address-->
-                                <div class="form-group row">
-                                  <div class="col-sm-10">
-                                    <input type="address" class="form-control" id="inputAddress" placeholder="Delivery Address">
-                                    <p>*Delivery Charges will be charge to your total depending on distance</p>
-                                  </div>
-                                </div>
-
-                                <!--close and submit order-->
-                                <div class="modal-footer">
-                                  <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                                  <button type="button" class="btn btn-primary">Submit Order</button>
-                                </div>
-                            </form>
-                          </div>
                         </div>
-                      </div>
+
+                        <!-- Modal -->
+                        <div class="modal fade" id="order" tabindex="-1" role="dialog" aria-labelledby="orderLabel"
+                             aria-hidden="true" style="color:black">
+                            <div class="modal-dialog" role="document">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title" id="orderLabel">Order Form</h5>
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                            <span aria-hidden="true">&times;</span>
+                                        </button>
+                                    </div>
+
+                                    <div class="modal-body">
+                                        <form action="mailto:redpuasa@gmail.com" method="post" enctype="text/plain">
+
+                                            <!--Name-->
+                                            <div class="container">
+                                                <div class="form-group row">
+                                                    <div class="col-sm-8">
+                                                        <label for="inputName" class="inputName">Name</label>
+                                                        <input type="text" class="form-control inputName" placeholder=""
+                                                               id="inputName">
+                                                    </div>
+                                                </div>
+
+                                                <!--Phone-->
+                                                <div class="form-group row">
+                                                    <div class="col-sm-8">
+                                                        <label for="inputPhone" class="inputName">Phone</label>
+                                                        <input type="number" class="form-control inputPhone"
+                                                               id="inputPhone" placeholder="xxxxxxx">
+                                                    </div>
+                                                </div>
+
+                                                <!--Pax/Quantity-->
+                                                <div class="form-group row">
+                                                    <div class="col-sm-8">
+                                                        <label for="inputQuantity" class="inputName">Quantity</label>
+                                                        <input type="number" class="form-control " id="inputQuantity"
+                                                               placeholder="$3 per Pax">
+                                                    </div>
+                                                </div>
+
+                                                <!--Remark-->
+                                                <div class="form-group row">
+                                                    <div class="col-sm-8">
+                                                        <label for="inputRemark" class="inputName">Remark</label>
+                                                        <input type="text" class="form-control" id="inputRemark"
+                                                               placeholder="">
+                                                    </div>
+                                                </div>
+
+                                                <!--Payment Method-->
+                                                <div class="form-group row">
+                                                    <label for="cash" class="col col-form-label">Payment Method</label>
+                                                    <div class="col-sm-10 my-auto">
+                                                        <label class="radio-inline"><input type="radio" name="payment"
+                                                                                           id="cash"> Cash</label>
+                                                        <label class="radio-inline pl-3"><input type="radio"
+                                                                                                name="payment"
+                                                                                                id="bankTransfer"> Bank
+                                                            Transfer</label>
+                                                    </div>
+                                                </div>
+
+                                                <!--Pick-up Method-->
+                                                <div class="form-group row">
+                                                    <label for="self" class="col col-form-label">Delivery Method</label>
+                                                    <div class="col-sm-10 my-auto">
+                                                        <label class="radio-inline"><input type="radio" name="pick"
+                                                                                           id="self"
+                                                                                           onclick="disable()">
+                                                            Self-Pick-up</label>
+                                                        <label class="radio-inline pl-3"><input type="radio" name="pick"
+                                                                                                id="delivery"
+                                                                                                onclick="enable()">
+                                                            Delivery</label>
+                                                    </div>
+                                                </div>
+
+                                                <!--Address-->
+                                                <div class="form-group row">
+                                                    <div class="col-sm-10">
+                                                        <input type="text" class="form-control" id="inputAddress"
+                                                               placeholder="Full Address">
+                                                        <p>*Delivery Charges will be charge to your total depending on
+                                                            distance</p>
+                                                    </div>
+                                                </div>
+
+                                                <!--close and submit order-->
+                                                <div class="modal-footer">
+                                                    <button type="button" class="btn btn-secondary"
+                                                            data-dismiss="modal">Close
+                                                    </button>
+                                                    <button type="button" class="btn btn-primary">Submit Order</button>
+                                                </div>
+                                            </div>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!--Order form ends here-->
+
                     </div>
-                    <!--Order form ends here-->
-
-                  </div>
                 </div>
-              </div>
             </div>
-          </div>
         </div>
-    </header>
-    <!--header end-->
-        
-    <main>
-      <!--start of live feed-->
-        <section id="feed">
-          <div class="container">
-            <div class="row">
-              <h1>Instagram Feed</h1>
-              <div class="col-sm-12">
-                 <!-- Place <div> tag where you want the feed to appear -->
-                <div id="curator-feed-default-feed-layout">
-                  <a href="https://curator.io" target="_blank" class="crt-logo crt-tag"></a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
-        <!--end of live feed-->
+    </div>
+</header>
+<!--header end-->
 
-        <!--start of process-->
-        <section id="process">
-          <div class="container">
-            <div class="row my-5">
-              <div class="col-sm-12">
-                <h2>Ingredient & Cooking Process</h2>
-              </div>
+<main>
+    <!--start of live feed-->
+    <section id="feed">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+                    <h4 class="text-center title">INSTAGRAM</h4>
+                    <hr>
+                    <!-- Place <div> tag where you want the feed to appear -->
+                    <div id="curator-feed-default-feed-layout">
+                        <a href="https://curator.io" target="_blank" class="crt-logo crt-tag"></a>
+                    </div>
+                </div>
             </div>
-              <div id="mainCarousel" class="carousel slide" data-ride="carousel">
+        </div>
+    </section>
+    <!--end of live feed-->
+
+    <!--start of process-->
+    <section id="process">
+        <div class="container">
+            <h4 class="text-center title">INGREDIENTS & COOKING PROCESS</h4>
+            <hr>
+            <div id="mainCarousel" class="carousel slide" data-ride="carousel">
                 <ol class="carousel-indicators">
-                  <li data-target="#mainCarousel" data-slide-to="0" class="active"></li>
-                  <li data-target="#mainCarousel" data-slide-to="1"></li>
-                  <li data-target="#mainCarousel" data-slide-to="2"></li>
+                    <li data-target="#mainCarousel" data-slide-to="0" class="active"></li>
+                    <li data-target="#mainCarousel" data-slide-to="1"></li>
+                    <li data-target="#mainCarousel" data-slide-to="2"></li>
                 </ol>
-              <div class="carousel-inner">
-                  <div class="carousel-item active">
-                    <img class="d-block w-100" src="img/ingredient_image.jpg" alt="Rice">
-                  </div>
-                  <div class="carousel-item">
-                    <img class="d-block w-100" src="img/ingredient_image_2.jpg" alt="Chicken">
-                  </div>
-                  <div class="carousel-item">
-                    <img class="d-block w-100" src="img/ingredient_image_3.jpg" alt="Cucumber">
-                  </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img class="d-block w-100" src="img/ingredient_image.jpg" alt="Rice">
+                    </div>
+                    <div class="carousel-item">
+                        <img class="d-block w-100" src="img/ingredient_image_2.jpg" alt="Chicken">
+                    </div>
+                    <div class="carousel-item">
+                        <img class="d-block w-100" src="img/ingredient_image_3.jpg" alt="Cucumber">
+                    </div>
                 </div>
                 <a class="carousel-control-prev" href="#mainCarousel" role="button" data-slide="prev">
-                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                  <span class="sr-only">Previous</span>
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
                 </a>
                 <a class="carousel-control-next" href="#mainCarousel" role="button" data-slide="next">
-                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                  <span class="sr-only">Next</span>
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
                 </a>
-              </div>
-              </div>
-        </section>
-        <!--end of process-->
-
-        <!--start of about-->
-        <section id="about">
-          <div class="container">
-            <div class="row my-5">
-              <div class="col-sm-12">
-                <h2>About Us</h2>
-                <p class="lead text-secondary">
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                  tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                  quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                  consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-                  cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-                  proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                </p>
-              </div>
             </div>
-          </div>
-        </section>
-        <!--end of about-->
+        </div>
+    </section>
+    <!--end of process-->
 
-        <!--start of contact-->
-        <section id="contact">
-          <div class="container py-5">
+    <!--start of about-->
+    <section id="about">
+        <div class="container">
+            <div class="row p-2"><!-- Opening row for About us, Objective, and Vision -->
+                <div class="col-sm-6"><!-- open column about us -->
+                    <h4 class="text-center title"> ABOUT US</h4>
+                    <p class="text-justify">Established in the year of 2020 during the COVID-19 pandemic. On You Cafe is
+                        a Bruneian Culture Food Cafe which aims to spread health awareness by producing healthy dishes
+                        with a twist of traditional Bruneian flavours. Our Signature Dish, the - 'Nasi Lemak
+                        Healthy' - was the first dish we launched, and it has received much positive feedback so
+                        far. There will more coming soon In Shaa Allah.</p>
+                </div><!-- close column about us -->
+
+                <div class="col-sm-6"><!-- open column for objective and vision -->
+                    <div class="row p-2"><!-- open row for Objective -->
+                        <div class="col-sm-12 border rounded">
+                            <h4 class="text-center title">OBJECTIVE</h4>
+                            <p class="text-center">"To reach the 2nd Maqasid Syariah (Objective of Syariah), The
+                                Preservation & Promotion of Life."</p>
+                        </div>
+                    </div><!-- close row for Objective -->
+                    <div class="row p-2"><!-- open row for Vision -->
+                        <div class="col-sm-12 border rounded">
+                            <h4 class="text-center title">VISION</h4>
+                            <p class="text-center">"To introduce a way of life following Rasullullah to the local
+                                community, reviving the dietary with local delicacy."</p>
+                        </div>
+                    </div><!-- close row for Vision -->
+                </div><!-- close column for Objective and Vision -->
+            </div><!-- Closing row for About us, Objective and Vision -->
+
+            <div class="row p-2"><!-- Open row for Our Story and Nasi Lemak Healthy -->
+                <div class="col-sm-6"><!-- Open column for Our Story -->
+                    <h4 class="text-center title">OUR STORY</h4>
+                    <p class="text-justify">The name "On You" came from an early childhood memory of the co-founders.
+                        While they were out drinking "Teh Tarik", they would point at each other, and say "On You ah~",
+                        the first who says it wins and the other person pays the bill. Over time, the phrase "On You"
+                        turned to a regular game. This game symbolizes the co-founders bond and friendship. So, "On You" is
+                        not just a catchy catch phrase, but it is the SYMBOL of their FRIENDSHIP.</p>
+                </div><!-- Close column for Our Story -->
+                <div class="col-sm-6"><!-- Open column for Nasi Lemak Healthy -->
+                    <h4 class="text-center title">NASI LEMAK HEALTHY</h4>
+                    <p class="text-justify">The idea of 'Nasi Lemak Sihat' came from two inspirations. The first was the
+                        2nd Maqasid Syariah or Objective of the Syariah - The Preservation and Promotion of Life - which
+                        includes to maintain and to promote a healthy life. The second was the co-founders childhood
+                        friend who became a health consultant. He was diagnosed with a disease a few years ago, and went
+                        through diet programmes for years. Due to his experience, he was inspired to help others to
+                        reach the optimal level of a healthy lifestyle. Through many trials and failures, he eventually
+                        discovered the best ingredients for a tasty and healthy recipe, and that was how the idea of
+                        'Nasi Lemak Healthy' materialised.</p>
+                </div><!-- Close column for Nasi Lemak Healthy -->
+            </div><!-- Close row for Our Story and Nasi Lemak Healthy -->
+        </div><!-- container-->
+    </section>
+    <!--end of about-->
+
+    <!--start of map-->
+    <section>
+
+        <!--Map-->
+        <div class="container map">
             <div class="row">
-              <div class="col-sm-4">
-                <h3 class="text-center">Pick-Up Location</h3>
-                <hr>
-              </div>
-              <div class="col-sm-4">
-                <h3 class="text-center">Operating Hours</h3>
-                  
-                <hr>
-                <div id="hours"></div>
-              </div>
-
-              <div class="col-sm-4">
-                <h3 class="text-center">Contact Us</h3>
-                <hr>
-                <p><i class="far fa-envelope"></i> <span>redpuasa@gmail.com</span></p>
-                <p><i class="fas fa-phone-alt"></i>  <span>+673 xxx xxxx</span></p>
-                <br>
-                <a href="#"><i class="fab fa-facebook fa-3x p-3 icon-white"></i></a>
-                <a href="#"><i class="fab fa-instagram fa-3x p-3 icon-white"></i></a>
-                <a href="#"><i class="fab fa-discord fa-3x p-3 icon-white"></i></a>
-              </div>
+                <div class="col-sm-12">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3975.0657322464!2d114.92855485528706!3d4.928662596033836!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3222f50b265728c5%3A0x9b5e094dda7dddc6!2sSimpang%20123%2C%20Bandar%20Seri%20Begawan%20BB3313!5e0!3m2!1sen!2sbn!4v1616657079508!5m2!1sen!2sbn"
+                            width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                </div>
             </div>
-        </section>
-        <!--end of contact-->
-    </main>
+        </div>
+    </section>
+    <!--end of map-->
+</main>
 
-    <footer>
-        <div class="container-fluid bg-dark">
-            <p class="m-0 p-3 text-center text-white">&copy; 2021 OYC </p>
-          </div>
-    </footer>
+<footer id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-4 text-center">
+                <h3 class="text-center title">Pick-up Location</h3>
+                <hr>
+                <p class="font-italic">
+                    No.26, Simpang 123, <br>
+                    Kampung Burung Pingai Berakas, <br>
+                    BB 3313
+                </p><br>
+            </div>
+            <div class="col-sm-4 text-center">
+                <h3 class="text-center title">Contact Us</h3>
+                <hr>
+                <p><i class="fab fa-whatsapp"></i><a href="https://wa.me/6738371912" target="_blank"><span> +673 837 1912</span></a>
+                    <br><i class="far fa-envelope"></i><span> onyoucafe@gmail.com</span>
+                    <br><i class="fab fa-instagram"></i><a href="https://www.instagram.com/onyoucafe/" target="_blank">
+                        @onyoucafe</a>
+                    <br><i class="fab fa-facebook"></i><a href="https://www.facebook.com/onyoucafe/" target="_blank">
+                        onyoucafe</a></p>
+            </div>
+            <div class="col-sm-4 text-center">
+                <h3 class="text-center title">Operating Hours</h3>
+                <hr>
+                <p>Pre-order starts:<br>WED-THURS: 7AM-(Thurs)6PM</p>
+                <p>Pick up/Deli orders:<br>SATURDAY: 8AM-1230PM</p>
+            </div>
+        </div>
+    </div>
 
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/js/bootstrap.min.js" integrity="sha512-XKa9Hemdy1Ui3KSGgJdgMyYlUg1gM+QhL6cnlyTe2qzMCYm4nAZ1PsVerQzTTXzonUR+dmswHqgJPuwCq1MaAg==" crossorigin="anonymous"></script>
-    <!-- Plugin JavaScript -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js" integrity="sha512-0QbL0ph8Tc8g5bLhfVzSqxe9GERORsKhIn1IrpxDAgUsbBGz/V7iSav2zzW325XGd1OMLdL4UiqRJj702IeqnQ==" crossorigin="anonymous"></script>
-    <!--Custom JavaScript-->
-    <script src="js/feed.js" type="text/javascript"></script>
-    <script src="js/time.js"></script>
-    <script src="js/order.js"></script>
-    <script src="js/scrolling-nav.js"></script>
+</footer>
 
-  </body>
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/js/bootstrap.min.js"
+        integrity="sha512-XKa9Hemdy1Ui3KSGgJdgMyYlUg1gM+QhL6cnlyTe2qzMCYm4nAZ1PsVerQzTTXzonUR+dmswHqgJPuwCq1MaAg=="
+        crossorigin="anonymous"></script>
+<!-- Plugin JavaScript -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"
+        integrity="sha512-0QbL0ph8Tc8g5bLhfVzSqxe9GERORsKhIn1IrpxDAgUsbBGz/V7iSav2zzW325XGd1OMLdL4UiqRJj702IeqnQ=="
+        crossorigin="anonymous"></script>
+<!--Custom JavaScript-->
+<script src="js/feed.js" type="text/javascript"></script>
+<script src="js/time.js"></script>
+<script src="js/order.js"></script>
+<script src="js/scrolling-nav.js"></script>
+
+</body>
 </html>
